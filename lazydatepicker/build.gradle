@@ -19,4 +19,3 @@ dependencies {
     implementation threetenabp
 }
 
-apply from: rootProject.file('gradle/publish-mavencentral.gradle')

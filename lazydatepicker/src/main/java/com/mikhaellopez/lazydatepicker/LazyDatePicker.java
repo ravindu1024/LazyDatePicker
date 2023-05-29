@@ -135,6 +135,22 @@ public class LazyDatePicker extends RelativeLayout {
         }
     }
 
+    public void setTextStyle(int textAppearance){
+        TextView separator1 = findViewById(R.id.text_lazy_date_separator_1);
+        TextView separator2 = findViewById(R.id.text_lazy_date_separator_2);
+
+        textLazyDate1.setTextAppearance(getContext(), textAppearance);
+        textLazyDate2.setTextAppearance(getContext(), textAppearance);
+        textLazyDate3.setTextAppearance(getContext(), textAppearance);
+        textLazyDate4.setTextAppearance(getContext(), textAppearance);
+        textLazyDate5.setTextAppearance(getContext(), textAppearance);
+        textLazyDate6.setTextAppearance(getContext(), textAppearance);
+        textLazyDate7.setTextAppearance(getContext(), textAppearance);
+        textLazyDate8.setTextAppearance(getContext(), textAppearance);
+        separator1.setTextAppearance(getContext(), textAppearance);
+        separator2.setTextAppearance(getContext(), textAppearance);
+    }
+
     //region PRIVATE METHOD
     private void initView() {
         date = "";

@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         LazyDatePicker lazyDatePicker = findViewById(R.id.lazyDatePicker);
         lazyDatePicker.setMinDate(minDate);
         lazyDatePicker.setMaxDate(maxDate);
+        lazyDatePicker.setTextStyle(android.R.style.TextAppearance_DeviceDefault_Medium);
 
         lazyDatePicker.setOnDatePickListener(new LazyDatePicker.OnDatePickListener() {
             @Override
